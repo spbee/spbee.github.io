@@ -1,6 +1,8 @@
 <html>
   <head>
-      <title>spbalamurugan</title></head>
+      <title>spbalamurugan</title>
+      <link href="//vjs.zencdn.net/4.11/video-js.css" rel="stylesheet">
+  </head>
   <body>
       <h1>Hi World</h1>
       <h2>Blogs worth reading</h2>
@@ -14,7 +16,18 @@
         <ul>
           <a href="https://github.com/spbooks/" target="_blank">https://github.com/spbooks</a> SitePoint books source code
         </ul>
+        <h2>Video Player trial</h2>
+        <video id="example_video_1" class="video-js vjs-default-skin"
+			  controls preload="auto" autoplay width="640" height="264"
+			  poster="http://video-js.zencoder.com/oceans-clip.png"
+			  data-setup='{ "children": { "controlBar": { "children": { "muteToggle": false } } } }'>
+			 <source src="http://video-js.zencoder.com/oceans-clip.mp4" type='video/mp4' />
+			 <source src="http://video-js.zencoder.com/oceans-clip.webm" type='video/webm' />
+			 <source src="http://video-js.zencoder.com/oceans-clip.ogv" type='video/ogg' />
+			 <p class="vjs-no-js">To view this video please enable JavaScript, and consider upgrading to a web browser that <a href="http://videojs.com/html5-video-support/" target="_blank">supports HTML5 video</a></p>
+		</video>
       </p>
+      <script src="//vjs.zencdn.net/4.11/video.js"></script>
   </body>
   <footer>
       <a href="mailto:spbalamuruga@hotmail.com?subject=Hey!!!%20found%20you%20ongithub%20page">contact me here</a>
